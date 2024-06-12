@@ -1,0 +1,863 @@
+.main-container1{
+    padding:0;
+    margin:0;
+    width:1512px;
+    height:750px;
+    position:relative;
+    top:80px;
+    background-image:url("https://s3-alpha-sig.figma.com/img/dd2a/21ce/852bde92aba0673c287f883df33b10cf?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DJzxw1K6jrtxC-4IKpZ45h2mkwjuvHpF45n9DDCKZlyQAcWguasUAoYv~q42fs0okPNCfduO2kx5V7lGBqg4QYmPc2Hw5D0kGfr2Ib8JegmjWT6TME8RzPb9VJahtBMdQJHyrKhKee4taMrj8qqHuYWkucAwflSQ4KUN-AcTRJJ7oWn-ODc~eOVI2vFKROMW7oaJlf8wpNLTE-YbyGeLnHuL84YA9OVkTXKlJFVgqBO6pqrXk9rAfYq7eVGCkiTcRXB0kSxuVoFodBDmiwKxoX2d6A1IsXzG0DqxYlvY2lwSt6Hk6hDKxIo5FwRn0exuRv15MTO9yeAhjQ7EfqLykg__");
+    /* background:linear-gradient(to left,rgb(33, 77, 77),rgb(29, 81, 69),rgb(0,0,0),rgb(31, 39, 39));
+    background:linear-gradient(to right,rgb(33, 77, 77),rgb(29, 81, 69),rgb(0,0,0),rgb(31, 39, 39)); */
+    background-color:black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background:linear-gradient(to right,rgb(27, 54, 54),rgb(0,0,0),rgb(27, 54, 54));
+}
+.circles-container{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: calc(36% - 210px/2 + 511px);
+    top: calc(50% - 210px/2 - 50px);
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.circles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid rgba(91, 192, 190, 1);
+    box-shadow: 0px 2px 2px rgba(91, 112, 90, 1);
+    margin: 15px;
+    position: relative;
+    animation: rotate 5s linear infinite;
+}
+
+.inner-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid rgba(91, 192, 190, 1);
+    box-shadow: 0px 2px 2px rgba(91, 112, 90, 1);
+    margin: 20px;
+    transform: translate(-50%, -50%) translate(80px, 0);
+    animation: rotate 5s linear infinite;
+}
+
+
+.middle-div{
+    width:1730px;
+    height:720px;
+    height: 100vh;
+    position:relative;
+    top:120px;
+    left:95px;
+    background-image: url('./image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.heading4-div{
+    width:347px;
+    height:41px;
+    position:relative;
+    top:50px;
+    left:45px;
+}
+.heading4-text{
+    font-family: "Sarabun";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: -0.06em;
+    text-align: left;
+    color:rgba(169, 169, 169, 1);
+}
+.heading1-div{
+    width: 485px;
+    height: 154px;
+    position: relative;
+    top: 105px;
+    left: 45px;
+    gap: 0px;
+    opacity: 0px;
+}
+.heading1-text{
+    font-family: "Sarabun";
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+}
+.start-building-div{
+    width: 160px;
+    height: 41px;
+    position: relative;
+    top: 165px;
+    left: 28px;
+    padding: 10px 20px 10px 15px;
+    gap: 5px;
+    border-radius: 10px;
+    opacity: 0px;
+    border:1px solid rgba(151, 157, 170, 1);
+    outline: none;
+    
+}
+.btn-div{
+    width: 150px;
+    height: 21px;
+    border:none;
+    position: relative;
+    bottom:7px;
+    gap: 0px;
+    opacity: 0px;
+    background-color:transparent;
+    outline: none;
+    cursor: pointer;
+}
+.btn-text{
+    font-family: "Sarabun";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: left;
+    color:rgba(144, 144, 144, 1);
+    background-color:transparent;
+    border: none;
+    margin-top: 6px;
+}
+.arrow-up-div{
+    width: 15px;
+    height: 15px;
+    position:absolute;
+    left: 118px;
+    bottom:15px;
+    transform: rotate(360deg);
+    gap: 0px;
+    opacity: 0px;
+}
+.arrow-class{
+    color:rgba(144, 144, 144, 1);
+}
+.button-join{
+    width: 131px;
+    height: 41px;
+    position:relative;
+    top: 120px;
+    left: 260px;
+    padding: 10px 0px 0px 0px;
+    gap: 5px;
+    border-radius:10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color:rgba(91, 192, 190, 1);
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1);
+    cursor: pointer;
+
+}
+.btn-join-waitlist-div{
+    width: 130px;
+    height: 21px;
+    position:relative;
+    left:10px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+}
+.btn-join-waitlist{
+    font-family: "Sarabun";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.8px;
+    text-align: left;
+    color:rgba(4, 4, 4, 1);
+    border:none;
+    background-color:transparent;
+}
+
+.btn-join-waitlist:active{
+    outline:none;
+}
+.arrow-up2-div{
+    width: 15px;
+    height: 15px;
+    position:absolute;
+    left: 118px;
+    bottom:28px;
+    transform: rotate(360deg);
+    gap: 0px;
+    opacity: 0px;
+
+}
+.arrow-mark{
+    position:relative;
+    right:11px;
+    top:13px;
+}
+.main-container{
+    padding:0;
+    margin:0;
+    width:1509px;
+    height:916px;
+    top:830px;
+    background-image:url("https://s3-alpha-sig.figma.com/img/dd2a/21ce/852bde92aba0673c287f883df33b10cf?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DJzxw1K6jrtxC-4IKpZ45h2mkwjuvHpF45n9DDCKZlyQAcWguasUAoYv~q42fs0okPNCfduO2kx5V7lGBqg4QYmPc2Hw5D0kGfr2Ib8JegmjWT6TME8RzPb9VJahtBMdQJHyrKhKee4taMrj8qqHuYWkucAwflSQ4KUN-AcTRJJ7oWn-ODc~eOVI2vFKROMW7oaJlf8wpNLTE-YbyGeLnHuL84YA9OVkTXKlJFVgqBO6pqrXk9rAfYq7eVGCkiTcRXB0kSxuVoFodBDmiwKxoX2d6A1IsXzG0DqxYlvY2lwSt6Hk6hDKxIo5FwRn0exuRv15MTO9yeAhjQ7EfqLykg__");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color:#040404;
+}
+.main-headingdiv{
+    width:570px;
+    height:60px;
+    position: absolute;
+    top:175px;
+    left:420px;
+}
+.main-heading{
+    font-family:"Sarabun";
+    font-weight:700;
+    font-size:42px;
+    line-height: 60px;
+    letter-spacing: -4%;
+    color:#FFFFFF;
+}
+.main-heading span{
+    color:rgba(111, 255, 233, 1);
+    font-family:"Sarabun";
+    font-weight:700;
+    font-size:42px;
+    line-height: 60px;
+    letter-spacing: -4%;
+    
+}
+.small-text{
+    padding-top:200px;
+    padding-left:120px;
+    font-family:"Sarabun";
+    font-weight:300;
+    font-size:16px;
+    line-height:20.8px;
+    color:rgba(144, 144, 144, 1);
+}
+.heading2{
+    margin-bottom:10px;
+
+}
+.heading2text{
+    padding-left:120px;
+    font-family:"Sarabun";
+    font-weight:700;
+    font-size:42px;
+    line-height:54px;
+    letter-spacing: -4%;
+    color:rgba(255, 255, 255, 1);
+}
+.left {
+    background-image: url('./net.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 60px;
+    background-color: #011210;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    text-align: left;
+    margin-top: 40px;
+}
+.all-cont{
+    background-color: #011210;
+}
+
+.heading2{
+    width:540px;
+    height:54px;
+}
+.frame1-heading3{
+    width: 500px;
+    height: 30px;
+    position:relative;
+    left:120px;
+
+}
+.frame1-heading3-text{
+    font-family:"Sarabun";
+    font-weight:700;
+    font-size:36px;
+    color:rgba(111, 255, 233, 1);
+} 
+.smalltext{
+    padding-left:120px;
+    position: relative;
+    top:140px;
+
+}
+.smalltext p{
+    color:rgba(144, 144, 144, 1);
+    
+}
+.right-container {
+    margin-top:270px;
+    margin-left:250px;
+    width:500px;
+    height:150px;
+}
+.box {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(1, 18, 16, 1);
+    width:500px;
+    height:150px;
+    border-radius:20px;
+    border:1px;
+    border: 1px solid #393838;
+
+}
+.box .hovertext{
+    visibility: hidden;
+    color:rgba(144, 144, 144, 1);
+}
+.box p{
+    color:rgba(255, 255, 255, 1);
+    font-family:"Sarabun";
+    font-weight:700;
+    font-size:20px;
+    margin-left:1px;
+}
+.hover-box:hover{
+    height:200px;
+    transition: 0.5s ease;
+    background:linear-gradient(to left,rgb(15, 56, 56),rgb(29, 81, 69),rgb(31, 39, 39));
+    color:rgba(144, 144, 144, 1);
+ 
+}
+.box:hover .hovertext{
+    visibility: visible;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.big-container {
+    width:1509px;
+    height:2000px;
+    background-color: black;
+    background-image: url("https://s3-alpha-sig.figma.com/img/dd2a/21ce/852bde92aba0673c287f883df33b10cf?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DJzxw1K6jrtxC-4IKpZ45h2mkwjuvHpF45n9DDCKZlyQAcWguasUAoYv~q42fs0okPNCfduO2kx5V7lGBqg4QYmPc2Hw5D0kGfr2Ib8JegmjWT6TME8RzPb9VJahtBMdQJHyrKhKee4taMrj8qqHuYWkucAwflSQ4KUN-AcTRJJ7oWn-ODc~eOVI2vFKROMW7oaJlf8wpNLTE-YbyGeLnHuL84YA9OVkTXKlJFVgqBO6pqrXk9rAfYq7eVGCkiTcRXB0kSxuVoFodBDmiwKxoX2d6A1IsXzG0DqxYlvY2lwSt6Hk6hDKxIo5FwRn0exuRv15MTO9yeAhjQ7EfqLykg__");
+    background-size: cover;
+    background-position: center;
+    padding-left:120px; 
+}
+.big-container-box {
+    width: 1232px;
+    height: 600px;
+    border: 1px solid #3A506B;
+    border-radius: 10px;
+    background:linear-gradient(to bottom right,rgb(0, 0, 0),rgb(11, 11, 11),rgb(11, 11, 11),rgb(27, 68, 51),rgb(31,82,70));
+}
+.big-container-box:hover{
+    background:linear-gradient(to bottom right,rgb(53, 87, 79),rgb(27, 68, 51),rgb(38, 58, 58),rgb(5, 5, 5),rgb(0, 0, 0))
+}
+.frame2heading {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Sarabun", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: -4%;
+}
+.spandiv{
+    position: relative;
+    bottom:70px;
+    left:100px;
+}
+.spantext {
+    color: rgba(91, 192, 190, 1);
+    font-family: "Sarabun", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    margin-left: 10px;
+    margin-top:0px; 
+}
+.btn1{
+    color:rgba(4, 4, 4, 1);
+    border: none;
+    cursor: pointer;
+    font-family:"Sarabun";
+    font-weight:700;
+    font-size:16px;
+    line-height:20.8px;
+    background-color: rgba(91, 192, 190, 1);
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.arrow-image {
+    max-width: 50px;
+    height: auto;
+    align-items:center;
+}
+.button1{
+    position: relative;
+    top:50px;
+    left:1px;
+    background-color: rgba(91, 192, 190, 1);
+    padding:5px;
+    gap: 5px;
+    margin-right:60px;
+    border-radius: 10px;
+    border:none; 
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1);
+}
+.frame2box{
+    padding:60px;
+}
+.boxes-container{
+    margin-right:50px;
+}
+.box1{
+    width:340px;
+    height:249px;
+    
+}
+.box1{
+    border:none;
+}
+.icon-arrow{
+    width:40px;
+    height:44px;
+    background-color: rgba(91, 192, 190, 1);
+    font-size:20px;
+    color:black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    top:50px;
+    right:72px;
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1);
+    
+}
+.arrow-side{
+    transform: rotate(-315deg);
+    padding-bottom:10px;
+
+}
+.icon2 {
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box; 
+    border-radius:10px;
+    position:relative;
+    left:60px;
+    bottom:46px;
+}
+.icon2 img {
+    width: 100%;
+    height: 100%;
+    background-color:rgba(22, 126, 110, 1);
+    object-fit: contain;
+    color:white;
+    
+    border-radius: 10px;
+}
+.swap{
+    width:45px;
+    height:22px;
+    position:relative;
+    left:60px;
+    bottom:20px;
+}
+.heading{
+    font-family: "Sarabun";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.text{
+    width:320px;
+    height:150px;
+    padding-left:120px;
+    position:relative;
+    right:62px;
+    top:1px;
+
+}
+.text p{
+    width:500px;
+    height:150px;
+    font-family: Sarabun;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color:rgba(144, 144, 144, 1);
+
+}
+.Liquidity{
+    width:74x;
+    height:22px;
+    position:relative;
+    left:60px;
+    bottom:20px;
+
+}
+.Bridge{
+    width:55x;
+    height:22px;
+    position:relative;
+    left:60px;
+    bottom:20px;
+}
+.icon3{
+    width:45px;
+    height:45px;
+    border-radius:10px;
+    background-color:rgba(22, 126, 110, 1);
+    position:relative;
+    left:60px;
+    bottom:45px;
+}
+
+.icon3 .data-icon{
+    width:24px;
+    height:24px;
+    color:white;
+    transform: rotate(1deg);
+    margin-top: 13px;
+    left:-3px
+}
+.bridge{
+    width:24px;
+    height:24px;
+    color:white;
+    padding:15px;
+}
+.icon3 i{
+    transform: rotate(132deg);
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.container3{
+    width:1509px;
+    height:916px;
+    background-color: black;
+    background-image: url("https://s3-alpha-sig.figma.com/img/dd2a/21ce/852bde92aba0673c287f883df33b10cf?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DJzxw1K6jrtxC-4IKpZ45h2mkwjuvHpF45n9DDCKZlyQAcWguasUAoYv~q42fs0okPNCfduO2kx5V7lGBqg4QYmPc2Hw5D0kGfr2Ib8JegmjWT6TME8RzPb9VJahtBMdQJHyrKhKee4taMrj8qqHuYWkucAwflSQ4KUN-AcTRJJ7oWn-ODc~eOVI2vFKROMW7oaJlf8wpNLTE-YbyGeLnHuL84YA9OVkTXKlJFVgqBO6pqrXk9rAfYq7eVGCkiTcRXB0kSxuVoFodBDmiwKxoX2d6A1IsXzG0DqxYlvY2lwSt6Hk6hDKxIo5FwRn0exuRv15MTO9yeAhjQ7EfqLykg__");
+    background-size: cover;
+    background-position: center;
+}
+.small-container{
+    width: 970px;
+    height: 414px;
+    position:relative;
+    top: 130px;
+    margin:80px;
+    
+}
+.heading3{
+    width:360px;
+    height:60px;
+    position:relative;
+    left:253px;
+
+}
+.headingtext{
+    font-family: Sarabun;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+}
+.headingtext span{
+    font-family: Sarabun;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color:rgba(111, 255, 233, 1);
+}
+.content{
+    width:690px;
+    width: 690px;
+    height: 160px;
+    position:relative;
+    top: 60px;
+    left: 140px;
+    gap: 0px;
+    opacity: 0px;
+}
+.signup{
+    font-family: Sarabun;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color:rgba(111, 255, 233, 1);
+}
+.contact-section{
+    width: 848px;
+    height: 54px;
+    margin-left:40px;
+    position:absolute;
+    top: 340px;
+    left: 61px;
+    gap: 80px;
+    opacity: 0px;
+}
+.button-section{
+    width: 170px;
+    height: Hug (51px)px;
+    left: -0.5px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(151, 157, 170, 1);
+    opacity: 0px;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+    gap: 0px;
+    opacity: 0px;
+    color:rgba(144, 144, 144, 1);
+    position: relative;
+    right:8px;
+    bottom:-3px;
+    transform: rotate(-30deg);
+
+}
+.twitter-div{
+    width: 80px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.twitter-heading{
+    font-family: Sarabun;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    text-align: left;
+    color:rgba(144, 144, 144, 1);
+}
+.arrow-div{
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    position:relative;
+    right:20px;
+}
+.arrowup {
+    width: 13.64px;
+    height: 13.64px;
+    position: relative;
+    top: 5px;
+    left: 19px;
+    transform: rotate(-315deg);
+    color: #909090;
+}
+.button-section3{
+    width: Hug (225px)px;
+    height: Hug (51px)px;
+    left: 646.5px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    border: 1px solid rgba(151, 157, 170, 1);
+
+}
+.telegram-div{
+    width: 100px;
+    padding-right:10px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.circle-div{
+    width:24px;
+    height:24px;
+    position:relative;
+    right:14px;
+    padding-left:10px;
+    margin-right:10px;
+}
+.Medium-div{
+    width: 120px;
+    padding-left:7px;
+    height: 31px;
+    gap: 0px;
+    opacity: 0px;
+}
+.Newsletter-box{
+    width: Hug (529px)px;
+    height: Hug (166px)px;
+    position:relative;
+    top: 117px;
+    left: 100px;
+    gap: 20px;
+    opacity: 0px;
+    
+
+}
+.newsletter-section {
+    width: 1232px;
+    height: 400px;
+    position: absolute;
+    top: 3200px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px solid #3A506B;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(11, 11, 11), rgb(11, 11, 11), rgb(27, 68, 51), rgb(31, 82, 70));
+    padding: 20px;
+    transition: ease 0.3s;
+    border-radius: 10px;
+}
+
+/* Add hover effect */
+.newsletter-section:hover {
+    background: linear-gradient(to bottom right, rgb(31, 82, 70), rgb(27, 68, 51), rgb(11, 11, 11), rgb(11, 11, 11), rgb(0, 0, 0));
+}
+
+.newsletter-div{
+    width: 240px;
+    height: 62px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.newsletter-heading{
+    font-family: Sarabun;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: left;
+    color:rgba(255, 255, 255, 1);
+}
+.Subscribe-div{
+    width: 529px;
+    height: 52px;
+    position: relative;
+    top: 20px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.Subscribe-p{
+    font-family: Sarabun;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color:rgba(144, 144, 144, 1);
+
+}
+/* email-section */
+.email-section{
+    width: Hug (529px)px;
+    height: Hug (166px)px;
+    position:relative;
+    top: 117px;
+    left: 100px;
+    gap: 20px;
+    opacity: 0px;
+}
+.email-address{
+    width: 171px;
+    height: 26px;
+    top: 142px;
+    left: 782px;
+    gap: 0px;
+    opacity: 0px;
+    padding-bottom:40px;
+}
+.email-text{
+    font-family: "Sarabun";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color:rgba(144, 144, 144, 1);  
+}
+.placeholder{
+    width: 350px;
+    height: 40px;
+    top: 181px;
+    left: 782px;
+    gap: 0px;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border:2px solid rgba(58, 80, 107, 1);
+    padding-bottom:40px;
+    background-color: #011210;
+}
+.placeholder .place-holder {
+    width:350px;
+    height:40px;
+    padding:10px;
+    font-size:16px;
+    color:white;
+    border:none;
+    background-color:transparent;
+    font-family:"Sarbun";
+}
+.button{
+    width: 91px;
+    height:46px;
+    top: 236px;
+    left: 787px;
+    margin-top:20px;
+    gap: 10px;
+    padding:5px;
+    border-radius: 10px;
+    border: 1px solid  rgba(58, 80, 107, 1);
+    opacity: 0px;
+    background-color:rgba(91, 192, 190, 1);
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1); 
+    cursor: pointer;
+
+}
+.button-class {
+    background-color: transparent;
+    border: none;
+    color: rgba(7, 16, 14, 1);
+    font-family: Sarabun, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1); 
+    margin-left: 8px;
+}
+

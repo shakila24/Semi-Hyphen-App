@@ -1,0 +1,70 @@
+.circle-block {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: rotateContainer 25s linear infinite; /* Apply the rotation animation */
+    perspective: 1000px; 
+    margin-top: 160px;
+}
+
+.big-circle {
+    width: 50%; /* Adjust as needed */
+    height: 50%; /* Adjust as needed */
+    border: 5px dotted #5BC0BE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation:rotateContainer 35s linear infinite; /* Apply the rotation animation */
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1);
+    box-sizing: border-box;
+}
+
+.medium-circle {
+    width: 30%; /* Adjust as needed */
+    height: 30%; /* Adjust as needed */
+    border: 5px dotted #5BC0BE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: rotateContainer 15s linear infinite;
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1);
+}
+
+.small-circle {
+    width: 18%; /* Adjust as needed */
+    height:18%; /* Adjust as needed */
+    border: 5px dotted #5BC0BE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: rotateContainer 5s linear infinite; 
+    box-shadow: 0px 2px 5px rgba(91, 192, 190, 1);
+}
+
+@keyframes rotateContainer {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotateCircle {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(-360deg);
+    }
+}

@@ -1,0 +1,116 @@
+
+.nav-bar{
+    color:white;
+    width:100%;
+    height: 80px;
+    border: 0px,0px,1px,0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px;
+}
+.nav-bar .icon img {
+    height: 29px; /* Adjust the height as needed */
+    width: 42px;  /* Adjust the width as needed */
+}
+
+.nav-bar .combiner{
+    width:160px;
+    height:29px;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+.nav-bar .title{
+    font-family:Sarabun;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 26px;
+    color:#6FFFE9
+}
+.nav-bar .items{
+    width:216px;
+    height:26px;
+    gap: 60px;
+    display: flex;
+    font-weight: 700;
+    font-size:20px;
+    line-height: 26px;
+    color:#909090
+}
+.nav-bar .item-1 .item-2{
+    width: 35px;
+    height: 26px;
+    gap:5px;
+    font-family:Sarabun;
+
+}
+.nav-bar .nav-button {
+    background: none;
+    border: none;
+    color: #909090;
+    font-family: Sarabun, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+}
+.nav-bar .group{
+    display: flex;
+    gap:10px
+}
+.arrow {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4.17px;
+    left: 1px;
+    transform: rotate(-360deg);
+    color: #909090;
+}
+.social-icons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    margin-left: 560px;
+}
+.social-icons .icons {
+    display: flex;
+    align-items: center;
+    background-color: #3B3B3B;
+    border-radius: 50%;
+    width:30px;
+    height: 30px;
+    justify-content: center ;
+    transform: rotate(140deg);
+    cursor: pointer;
+}
+.social-icons .tel{
+    transform: rotate(390deg);
+}
+.launch-btn{
+    width: 136px;
+    height: 38px;
+    border-radius: 10px;
+    padding:6px, 15px, 6px, 15px;
+    border: 1px solid #3A506B;
+    gap:10px;
+    background-color: #5BC0BE;
+    color: #07100E;
+    font-family: sarabun;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
